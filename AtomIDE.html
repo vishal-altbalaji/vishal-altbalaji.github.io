@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    hello world
+  </title>
+  <script>
+  function myFunction(){
+    document.write("hello function >> <br> <br> ");
+  }
+
+  function myFunctionWithArgs(myArgs){
+    document.write("hello function with args "+ myArgs +"<br> <br>");
+  }
+  </script>
+</head>
+<body>
+Hello body
+
+</body>
+
+<script>
+myFunction();
+myFunctionWithArgs("ALTBalaji");
+</script>
+
+<script>
+var myName = "vishal";
+var age = "31";
+
+document.write("my name is "+ myName +" and my age is "+age +" <br>");
+
+
+var lenght_ = age.length;
+document.write("my length " + length +" <br>" );
+
+
+var mySubstring = myName.substring(0, 4);
+document.write("subString " + mySubstring +" <br>" );
+
+ var myArray = new Array(3);
+ myArray[0] = "vishal";
+ myArray[1] = "kumar";
+ myArray[2] = "asmita";
+ document.write("  siblings "+ myArray[0]+" <br>" );
+
+
+var myArray2 = ["vishal", "kumar", "asmita"];
+document.write("  siblings 2 "+ myArray2[1] +" <br>");
+
+var myArray3 = new Array("Vishal", "kumar", "Asmita");
+document.write("  siblings 3 "+ myArray3[2] +" <br>" );
+
+
+//test condition
+var myVariable = 4;
+if(myVariable > 0)
+{
+  alert(myVariable);
+}
+
+for(i = 0; i< 10; i++)
+{
+  document.write("loopoing "+ i + "<br>");
+}
+</script>
+<button> Add item </button>
+<ul id = "my-list">
+  <li> One </li>
+  <li> Two </li>
+  <li> Three </li>
+</ul>
+<script src = "wish.js" ></script>
+
+
+</body>
+</html>
