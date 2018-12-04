@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.balaji.alt",
+    "sha256_cert_fingerprints":
+    ["9B:40:AA:C8:81:02:B3:B5:B4:7C:C4:28:FF:79:48:F3:30:45:51:47:E3:CC:31:30:17:C7:7A:AA:93:E4:59:07"]
+  }
+}]
